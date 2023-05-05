@@ -1,0 +1,24 @@
+@import "variables.scss";
+.container {
+    padding-top: 30px;
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .card {
+        width: calc(100% / 6);
+        height: 170px;
+        padding: 0 30px 150px 0;
+        margin-bottom: 200px;
+        background-color: $primary_color;
+        border: none;
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+
+}

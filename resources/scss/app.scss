@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+@import "_partials/cards.scss";
+@import "_partials/variables.scss";
+
+body {
+    ul{
+        padding-left: 0;
+        li{
+            list-style: none;
+        }
+    }
+}
+
+body {
+    background-color: $primary_color;
+    h1{
+        color: $fourth_color;
+        font-size: 20px;
+    }
+    h2{
+        color: $fourth_color;
+        font-size: 18px;
+    }
+    h3{
+        color: $secondary_color;
+    }
+    h4{
+        color: red;
+    }
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
